@@ -11,20 +11,20 @@ from Zaid.helper.PyroHelpers import ReplyCheck
 from Zaid.modules.help import add_command_help
 from Zaid.modules.bot.inline import get_readable_time
 
-alive_logo = ALIVE_PIC or "https://graph.org/file/b0825ba6490d2aa6a6afd.jpg"
+alive_logo = ALIVE_PIC or "https://telegra.ph/file/02e341342ad5f3156b7c1.jpg"
 
 if ALIVE_TEXT:
    txt = ALIVE_TEXT
 else:
     txt = (
-        f"** 𝐒𝐓𝐑𝐀𝐍𝐆𝐄𝐑 **\n\n"
+        f"** 𝐒𝐏𝐀𝐌-𝐗 **\n\n"
         f"❏ **𝐕ᴇʀsɪᴏɴ**: `2.1`\n"
         f"├• **𝐔ᴘᴛɪᴍᴇ**: `{str(datetime.now() - START_TIME).split('.')[0]}`\n"
         f"├• **𝐏ʏᴛʜᴏɴ**: `{python_version()}`\n"
         f"├• **𝐏ʏʀᴏɢʀᴀᴍ**: `{__version__}`\n"
-        f"├• **𝐒ᴜᴘᴘᴏʀᴛ**: [Click](t.me/mastiwithfriendsx)\n"
-        f"├• **𝐌ᴀsᴛᴇʀ**: [Click](t.me/SHIVANSH39)\n"
-        f"└• **𝐔ᴘᴅᴀᴛᴇs**: [Click](https://t.me/SHIVANSH474)"        
+        f"├• **𝐒ᴜᴘᴘᴏʀᴛ**: [Click](https://t.me/TEAM_CDX)\n"
+        f"├• **𝐌ᴀsᴛᴇʀ**: [Click]https://t.me/BRANDED_KAMEENAA)\n"
+        f"└• **𝐔ᴘᴅᴀᴛᴇs**: [Click]https://t.me/CDX_WORLD)"        
     )
 
 @Client.on_message(
@@ -57,12 +57,12 @@ async def repo(bot: Client, message: Message):
     await asyncio.sleep(1)
     await message.edit("Fetching Source Code.....")
     await asyncio.sleep(1)
-    await message.edit("Here is repo: \n\n\nhttps://github.com/itzshukla/STRANGER-USERBOT2.0 Fork & Give an ⭐")
+    await message.edit("Here is repo: \n\n\nhhttps://github.com/MrHacker5575/SPAMM_USER2.0 Fork & Give an ⭐")
 
 
 @Client.on_message(filters.command("creator", ".") & filters.me)
 async def creator(bot: Client, message: Message):
-    await message.edit("https://t.me/SHIVANSH39")
+    await message.edit("https://t.me/BRANDED_KAMEENAA")
 
 
 @Client.on_message(filters.command(["uptime", "up"], ".") & filters.me)
