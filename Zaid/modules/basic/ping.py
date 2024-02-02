@@ -27,7 +27,7 @@ class WWW:
     filters.command(["speed"], ".") & (filters.me | filters.user(SUDO_USER))
 )
 async def speed_test(client: Client, message: Message):
-    new_msg = await message.reply_text("`Running speed test . . .`")
+    new_msg = await message.reply_text("`Running chudai test . . .`")
     try:
        await message.delete()
     except:
@@ -35,18 +35,18 @@ async def speed_test(client: Client, message: Message):
     spd = speedtest.Speedtest()
 
     new_msg = await new_msg.edit(
-        f"`{new_msg.text}`\n" "`Getting best server based on ping . . .`"
+        f"`{new_msg.text}`\n" "`Getting best loda for saumya . . .`"
     )
     spd.get_best_server()
 
-    new_msg = await new_msg.edit(f"`{new_msg.text}`\n" "`Testing download speed✨🥀 . . .`")
+    new_msg = await new_msg.edit(f"`{new_msg.text}`\n" "`Testing chudai speed✨🥀 . . .`")
     spd.download()
 
-    new_msg = await new_msg.edit(f"`{new_msg.text}`\n" "`Testing upload speed✨🥀 . . .`")
+    new_msg = await new_msg.edit(f"`{new_msg.text}`\n" "`Testing chudai speed✨🥀 . . .`")
     spd.upload()
 
     new_msg = await new_msg.edit(
-        f"`{new_msg.text}`\n" "`Getting results and preparing formatting ✨🥀. . .`"
+        f"`{new_msg.text}`\n" "`Getting results and preparing for fucking ✨🥀. . .`"
     )
     results = spd.results.dict()
 
@@ -63,7 +63,7 @@ async def speed_test(client: Client, message: Message):
 
 
 @Client.on_message(
-    filters.command(["ping"], ".") & (filters.me | filters.user(SUDO_USER))
+    filters.command(["ping"], ".", "!") & (filters.me | filters.user(SUDO_USER))
 )
 async def pingme(client: Client, message: Message):
     uptime = await get_readable_time((time.time() - StartTime))
@@ -73,16 +73,16 @@ async def pingme(client: Client, message: Message):
        await message.delete()
     except:
        pass
-    await xx.edit("**20% ██▒▒▒▒▒sʜɪᴠ-xᴅ**")
-    await xx.edit("**40% ████▒▒▒sʜɪᴠ-ᴏᴘ**")
-    await xx.edit("**60% ██████sʜɪᴠ-ᴘᴀᴘᴀ**")
-    await xx.edit("**80% ███████sʜɪᴠ-ʙᴀᴀᴘ**")
+    await xx.edit("**20% ██▒▒▒▒▒codex**")
+    await xx.edit("**40% ████▒▒▒codex**")
+    await xx.edit("**60% ██████codexᴀ**")
+    await xx.edit("**80% ███████codex**")
     await xx.edit("**100% ████████ᴄᴏᴍɪɴɢ**")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await xx.edit(
-        f"❏ **╰☞ ™°‌ 𝐒𝐓𝐑𝐀𝐍𝐆𝐄𝐑✨✨\n"
-        f"├• **╰☞ 𝗣ɪɴɢ** - `%sms`\n"
+        f"❏ **╰☞ 𝐒𝐀𝐔𝐌𝐘𝐀 𝐊𝐈 𝐂𝐇𝐔𝐃𝐀𝐈🥵\n"
+        f"├• **╰☞ kitne ghante chudi** - `%sms`\n"
         f"├• **╰☞ 𝗨ᴘᴛɪᴍᴇ -** `{uptime}` \n"
         f"└• **╰☞ 𝗡ᴀᴍᴇ:** {client.me.mention}" % (duration)
     )
