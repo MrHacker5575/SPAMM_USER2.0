@@ -33,4 +33,4 @@ class AioHttp:
     async def get_url(link):
         async with aiohttp.ClientSession() as session:
             async with session.get(link) as resp:
-                return resp.url
+                return resp.url()
