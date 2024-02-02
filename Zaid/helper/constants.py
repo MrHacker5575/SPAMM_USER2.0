@@ -379,7 +379,7 @@ class MEMES:
         "YOᑌᖇ ᗷᖇᗩIᑎ ➡️ 🧠\n\n           <(^_^ <)🗑",
     ]
 
-    COCK = (
+    CODEX = (
         "     ,gggg,     _,gggggg,_      ,gggggggggggg,      ,ggggggg,  ,ggg,          ,gg \n"
         "   ,88"""Y8b, ,d8P""d8P"Y8b,   dP"""88""""""Y8b,  ,dP""""""Y8bdP"""Y8,      ,dP' \n"
         "  d8"     `Y8,d8'   Y8   "8b,dPYb,  88       `8b, d8'    a  Y8Yb,_  "8b,   d8"   \n"
