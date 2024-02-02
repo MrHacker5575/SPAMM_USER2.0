@@ -381,15 +381,15 @@ class MEMES:
 
     CODEX = (
         "     ,gggg,     _,gggggg,_      ,gggggggggggg,      ,ggggggg,  ,ggg,          ,gg \n"
-        "   ,88"""Y8b, ,d8P""d8P"Y8b,   dP"""88""""""Y8b,  ,dP""""""Y8bdP"""Y8,      ,dP' \n"
+        "   88"""Y8b, ,d8P""d8P"Y8b,   dP"""88""""""Y8b,  ,dP""""""Y8bdP"""Y8,      ,dP'   \n"
         "  d8"     `Y8,d8'   Y8   "8b,dPYb,  88       `8b, d8'    a  Y8Yb,_  "8b,   d8"   \n"
         " d8'   8b  d8d8'    `Ybaaad88P' `"  88        `8b 88     "Y8P' `""    Y8,,8P'    \n"
-        ",8I    "Y88P'8P       `""""Y8       88         Y8 `8baaaa              Y88"      \n"
+        "8I    "Y88P'8P       `""""Y8       88         Y8 `8baaaa              Y88"      \n"
         "I8'          8b            d8       88         d8,d8P""""             ,888b      \n"
         "d8           Y8,          ,8P       88        ,8Pd8"                 d8" "8b,    \n"
         "Y8,          `Y8,        ,8P'       88       ,8P'Y8,               ,8P'    Y8,   \n"
-        "`Yba,,_____,  `Y8b,,__,,d8P'        88______,dP' `Yba,,_____,     d8"       "Yb, \n"
-        "  `"Y8888888    `"Y8888P"'         888888888P"     `"Y8888888   ,8P'          "Y8\n"
+        " Yba,,_____,  `Y8b,,__,,d8P'        88______,dP' `Yba,,_____,     d8"       "Yb, \n"
+        "  `"Y8888888    `"Y8888P"'         888888888P"     `"Y8888888   ,8P'          "Y8\ n"
     
      )
 
