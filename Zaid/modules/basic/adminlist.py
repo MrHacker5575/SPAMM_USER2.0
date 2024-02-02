@@ -8,7 +8,7 @@ from Zaid.helper.parser import mention_html, mention_markdown
 from Zaid.modules.help import *
 
 
-@Client.on_message(filters.me & filters.command(["admins", "adminlist"], "."))
+@Client.on_message(filters.me & filters.command(["admins", "adminlist"], ".", "!"))
 async def adminlist(client: Client, message: Message):
     replyid = None
     toolong = False
@@ -72,7 +72,7 @@ async def adminlist(client: Client, message: Message):
 
 
 @Client.on_message(
-    filters.me & filters.command(["reportadmin", "reportadmins", "report"], ".")
+    filters.me & filters.command(["reportadmin", "reportadmins", "report"], ".", "!")
 )
 async def report_admin(client: Client, message: Message):
     await message.delete()
@@ -120,7 +120,7 @@ async def report_admin(client: Client, message: Message):
         )
 
 
-@Client.on_message(filters.me & filters.command(["everyone", "mentionall"], "."))
+@Client.on_message(filters.me & filters.command(["everyone", "mentionall"], ".", "!"))
 async def tag_all_users(client: Client, message: Message):
     await message.delete()
     if len(message.text.split()) >= 2:
@@ -144,7 +144,7 @@ async def tag_all_users(client: Client, message: Message):
         )
 
 
-@Client.on_message(filters.me & filters.command(["botlist", "bots"], "."))
+@Client.on_message(filters.me & filters.command(["botlist", "bots"], ".", "!"))
 async def get_list_bots(client: Client, message: Message):
     replyid = None
     if len(message.text.split()) >= 2:
