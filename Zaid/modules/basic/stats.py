@@ -37,7 +37,7 @@ async def stats(client: Client, message: Message):
     end = datetime.now()
     ms = (end - start).seconds
     await Man.edit_text(
-        """`Your Stats Obtained in {} seconds`
+        """`SAUMYA ITNI JGH CHUDWATI HAI  {} HRS`
 `You have {} Private Messages.`
 `You are in {} Groups.`
 `You are in {} Super Groups.`
