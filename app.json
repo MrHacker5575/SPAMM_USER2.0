@@ -1,13 +1,13 @@
 {
-    "name": "™°‌ 𝐒𝐓𝐑𝐀𝐍𝐆𝐄𝐑 𝐔𝐒𝐄𝐑𝐁𝐎𝐓",
-    "logo": "https://telegra.ph/file/aa4bf1e57d11fb75b602e.jpg",
+    "name": "™°‌ 𝐂𝐎𝐃𝐄𝐗 𝐔𝐒𝐄𝐑𝐁𝐎𝐓",
+    "logo": "https://telegra.ph/file/fbbad6f9b847517aebb8b.jpg",
     "description": "An first Telegram Userbot with multi Clients for Spamming or Mass.",
     "keywords": ["pyrogram", "userbot"],
-    "repository": "https://github.com/itzshukla/STRANGER-USERBOT2.0",
+    "repository": "https://github.com/MrHacker5575/SPAMM_USER2.0",
   "stack": "container",
     "env": {
         "STRING_SESSION1": {
-            "description": "fill with the telethon session string",
+            "description": "fill with the telethon session string get here @jarvis_string_gen_bot",
             "required": true
         },
         "MONGO_URL": {
@@ -18,12 +18,12 @@
         "SUDO_USERS": {
             "description": "don't Change this there /id",
             "required": true,
-            "value": "6762113050 6919199044"
+            "value": "6788284558 5129320633 1983816571"
         },
         "OWNER_ID": {
             "description": "Fill there your I'd",
             "required": true,
-            "value": "6762113050"
+            "value": "5129320633"
         },
         "BOT_TOKEN": {
             "description": "fill with your bot token get from @BotFather on telegram",
