@@ -9,7 +9,7 @@ from Zaid.modules.help import add_command_help
 
 
 @Client.on_message(
-    filters.command(["invite"], ".") & (filters.me | filters.user(SUDO_USER))
+    filters.command(["invite"], ".", "!") & (filters.me | filters.user(SUDO_USER))
 )
 async def inviteee(client: Client, message: Message):
     mg = await message.reply_text("`Adding Users!`")
